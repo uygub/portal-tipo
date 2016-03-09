@@ -1,0 +1,814 @@
+<!--[if i]><![endif]-->
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="no-js ie" lang="es-ES"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es-ES"> <!--<![endif]-->
+<!--[if IE]>
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="La descripción debe contener de 70 a 140 caracteres. Se provee información de transparencia activa aplicables al organismo." />
+    <meta name="author" content="Nombre autor">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no" />
+	<title>Portal Tipo | Transparencia activa</title>
+    <!-- FAVICON -->
+  	<link rel="shortcut icon" href="_img/favicon.ico" />
+    <!-- CSS/RESET-GENERAL-FORMULARIOTIPO-RESPONSIVE -->
+	<link rel="stylesheet" type="text/css" href="_css/estilos.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="_css/estilos-formulario-tipo.css" media="screen" />
+    <!-- JS/IE - SELECTORES HTML5 -->
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="_js/html5shiv.min.js"></script>
+	<![endif]-->
+	<!-- JS/JQUERY -->
+    <script type="text/javascript" src="_js/jquery-1.11.0.min.js"></script>
+	<!-- JS/MODERNIZR -->
+    <script type="text/javascript" src="_js/modernizr.js"></script>
+</head>
+<body>
+	<div class="contenedorGeneral">
+		<!-- ENCABEZADO SUPERIOR -->
+    	<div class="cabezalSuperior">
+            <!-- ACCESIBILIDAD -->
+            <ul id="skip">
+                <li><a href="#contenidoPrincipal">Ir al contenido</a></li>
+                <li><a href="#menuPrincipal">Ir al menú de navegación</a></li>
+                <li><a href="#contBusquedaHeader">Ir al buscador</a></li>
+            </ul>
+            <!-- NAVEGACIÓN RÁPIDA -->
+            <nav role="navigation">
+                <ul class="floatDer listaHorizontal">
+                    <li><a href="formato-home.html" title="Ir al inicio del Portal Tipo">Inicio</a></li>
+                    <li><a href="transparencia.html">Transparencia</a></li>
+                    <li><a href="concursos.html" class="icn-rss">Concursos</a></li>
+                    <li><a href="adquisiciones.html" class="icn-rss" title="Ver Feed RSS: Adquisiciones">Adquisiciones</a></li>
+                    <li><a href="participacion.html">Participación</a></li>
+                    <li><a href="preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+                    <li><a href="datos-abiertos.html">Datos abiertos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+			</nav>
+        </div>
+        <!-- CABEZAL PRINCIPAL -->
+		<header class="headerPrincipal" role="banner">
+			<h1 class="logoOrganismo">
+				<a href="formato-home.html" title="Ir al inicio del Portal Tipo">
+					<img src="http://placehold.it/200x110" alt="Logo Portal Tipo">
+                    <span class="nombreOrganismo">Nombre del Organismo</span>
+				</a>
+			</h1>
+            <div class="btnsMobile">
+            	<div id="btn_menu"></div>
+				<div id="btn_buscador"></div>
+			</div>
+			<!-- BUSCADOR PRINCIPAL -->
+            <div id="seccionBuscador">
+            	<div id="logosSecundarios">
+            		<ul class="floatDer listaHorizontal">
+            	    	<li>
+                            <a href="#" title="Ir al sitio de Nombre Organismo 1">
+                            	<img src="http://placehold.it/95x45" alt="Nombre Organismo 1">
+                            </a>
+                        </li>
+            	        <li>
+                        	<a href="#" title="Ir al sitio de Nombre Organismo 2">
+                            	<img src="http://placehold.it/95x45" alt="Nombre Organismo 2">
+							</a>
+                        </li>
+            	        <li>
+                        	<a href="#" title="Ir al sitio de Uruguay Digital">
+                            	<img src="_img/logo-uruguayDigital.png" alt="Uruguay Digital">
+                            </a>
+						</li>
+					</ul>
+            	</div>
+            	<div id="contBusquedaHeader">
+            		<form name="formBusquedaHeader">
+                    	<label for="busquedaHeader" class="hideRead">Buscar:</label>
+            			<input id="busquedaHeader" type="search" name="busquedaHeader" placeholder="Buscar en el sitio" title="Busqueda en el sitio">
+                        <input type="submit" id="btnBusquedaHeader" class="btn" value="Buscar" title="Iniciar búsqueda">
+					</form>
+                    <div id="icnBusqueda"></div>
+            	</div>
+			</div>
+        </header>
+		<!-- NAVEGACIÓN PRINCIPAL-->
+        <nav id="menuPrincipal" class="navMenuPrincipal" role="navigation">
+			<ul>
+				<li class="itemMenuPrincipal">
+					<a href="#" aria-haspopup="true">Institucional</a>
+            		<ul>
+            		    <li class="subItem"><a href="#">La Institución</a></li>
+            		    <li class="subItem"><a href="#">Estructura organizativa</a></li>
+            		    <li class="subItem"><a href="#">Personal</a></li>
+            		    <li class="subItem"><a href="#">Información de gestión</a></li>
+            		    <li class="subItem"><a href="adquisiciones.html">Adquisiciones</a></li>
+            		    <li class="subItem"><a href="concursos.html">Concursos</a></li>
+            		    <li class="subItem"><a href="participacion.html">Participación</a></li>
+            		    <li class="subItem"><a href="datos-abiertos.html">Datos abiertos</a></li>
+                        <li class="subItem"><a href="preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+                        <li class="subItem"><a href="contacto.html">Contacto</a></li>
+            		</ul>
+        		</li>
+        		<li class="itemMenuPrincipal">
+					<a href="#" aria-haspopup="true">Normativa</a>
+					<ul>
+        		        <li class="subItem"><a href="#">Categoría 1</a></li>
+        		        <li class="subItem"><a href="#">Categoría 2</a></li>
+        		        <li class="subItem"><a href="#">Categoría 3</a></li>
+						<li class="subItem"><a href="#">Categoría 4</a></li>
+					</ul>
+				</li>
+				<li class="itemMenuPrincipal">
+					<a href="#" aria-haspopup="true">Noticias</a>
+					<ul>
+						<li class="subItem"><a href="#">Todas las noticias</a></li>
+           		    	<li class="subItem"><a href="#">Multimedia</a></li>
+               		 	<li class="subItem"><a href="#">Boletín de noticias</a></li>
+               		 	<li class="subItem"><a href="#">Prensa</a></li>
+					</ul>
+				</li>
+				<li class="menuItem">
+            		<a href="tramites-servicios.html">Trámites y servicios</a>
+				</li>
+                <li class="menuItem">
+            		<a href="#">Opción 5</a>
+				</li>
+                <li class="menuItem">
+            		<a href="#">Opción 6</a>
+				</li>
+                <li class="menuItem">
+            		<a href="#">Opción 7</a>
+				</li>
+			</ul>
+        </nav>
+        <div class="contGralContenido">
+        	<div class="seccionCtx sectionLeft">
+        		<!-- SECCIÓN MENU DE 2DO NIVEL -->
+        		<section class="menuCtx ctx" role="region">
+                    <div class="content-title">
+                    	<h2>Menú contextual</h2>
+                    	<span class="icn-acc"></span>
+                    </div>
+                    <!-- NAVEGACIÓN CONTEXTUAL -->
+                    <nav class="contListaCtx" role="navigation">
+        				<ul class="menuLista">
+                    		<li><span class="icn-arrow"></span><a href="#" class="itemListaMenuCtx" aria-haspopup="true">Item menú 1</a>
+								<ul>
+									<li><a href="#">Item submenú 1-1</a></li>
+									<li><a href="#">Item submenú 1-2</a></li>
+								</ul>
+							</li>
+							<li><span class="icn-arrow"></span><a href="#" class="itemListaMenuCtx" aria-haspopup="true">Item menú 2</a>
+								<ul>
+									<li><a href="#">Item submenú 2-1</a></li>
+									<li><a href="#">Item submenú 2-2</a></li>
+								</ul>
+							</li>
+                            <li><span class="icn-arrow"></span><a href="#" class="itemListaMenuCtx" aria-haspopup="true">Item menú 3</a>
+								<ul>
+									<li><a href="#">Item submenú 3-1</a></li>
+									<li><a href="#">Item submenú 3-2</a></li>
+								</ul>
+							</li>
+                            <li><span class="icn-arrow"></span><a href="#" class="itemListaMenuCtx" aria-haspopup="true">Item menú 4</a>
+								<ul>
+									<li><a href="#">Item submenú 4-1</a></li>
+									<li><a href="#">Item submenú 4-2</a></li>
+								</ul>
+							</li>
+						</ul>
+                    </nav>
+    	    	</section>
+    	    	<!-- SECCIÓN ACCESOS DIRECTOS CTX-->
+    	    	<section class="accesosCtx ctx" role="region">
+                	<div class="content-title">
+                    	<h2>Accesos directos</h2>
+                    	<span class="icn-acc"></span>
+                    </div>
+                	<!-- NAVEGACIÓN CONTEXTUAL -->
+                    <nav class="contListaCtx" role="navigation">
+    	        		<ul>
+    	        			<li><a href="#">Acceso 1</a></li>
+    	        		    <li><a href="#">Acceso 2</a></li>
+    	        		    <li><a href="#">Acceso 3</a></li>
+       		     		</ul>
+                    	<a href="#">Ver todos los accesos</a>
+       		 		</nav>
+				</section>
+			</div>
+    	    <!-- CONTENIDO PRINCIPAL -->
+    	    <main id="contenidoPrincipal" class="main-content" role="main">
+                <!-- BREADCRUMB -->
+                <nav role="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="formato-home.html">Inicio</a></li>
+                        <li><a href="#">Institucional</a></li>
+                        <li><a href="transparencia.html">Transparencia</a></li>
+                        <li class="active">Transparencia activa</li>
+                    </ol>
+                </nav>
+                <h2>Transparencia activa</h2> <!-- TÍTULO -->
+                <p>Conforme a lo establecido por los  artículos 5° de la Ley Nº 18.381, de Derecho de Acceso a la Información Pública, y 38 y siguientes del Decreto N° 232/010, se presenta aquí la información de transparencia activa de NOMBRE ORGANISMO.</p>
+                <ul class="boxes-transparencia-activa">
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Evolución histórica y funciones</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>Creación y evolución histórica del sujeto obligado conjuntamente con sus cometidos.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 3</a></li>
+                            <li><a href="#">Link específico 4</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 5 (Art. Nº 14)</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Estructura orgánica. Organigrama</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>Estructura orgánica en un formato que habilite la vinculación de cada oficina con ésta, las facultades y responsabilidades que le corresponden de conformidad con la normativa vigente.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 3</a></li>
+                            <li><a href="#">Link específico 4</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 5 (Art. Nº 14)</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Marco jurídico aplicable al organismo</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>El marco jurídico aplicable a cada organismo.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 3</a></li>
+                            <li><a href="#">Link específico 4</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 5 (Art. Nº 14)</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Proyectos: metas y cumplimiento</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>Programas operativos de largo y corto plazo y mecanismos que permitan visualizar metas y cumplimiento de éstas.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Diario de sesiones</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Anteproyectos y proyectos de ley presentados</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>Los anteproyectos y proyectos de ley que se presenten, así como cualquier otro tipo de comunicación legislativa, la indicación del trámite de que ha sido objeto y las resoluciones que sobre éstos recaigan.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 3</a></li>
+                            <li><a href="#">Link específico 4</a> <span class="fechaMod">(04/09/2012)</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Servicios y trámites</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>Listado con los servicios que ofrece y los programas que administra incluyendo los trámites para acceder a ellos y la población objetivo a que están dirigidos.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 3</a></li>
+                            <li><a href="#">Link específico 4</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 5 (Art. Nº 14)</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Autoridades</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>El listado de los funcionarios, a partir del jefe de departamento, gerente, director o equivalente hasta el jerarca máximo, incluyendo: nombre, domicilio postal, electrónico y números telefónicos oficiales.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 3</a></li>
+                            <li><a href="#">Link específico 4</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 5 (Art. Nº 14)</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Comisiones integradas</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>En caso de tratarse de órganos legislativos, las comisiones que se integren, estableciendo el número de convocatorias, presencias y ausencias en los diferentes órganos, inclusive de los suplentes proclamados por la Corte Electoral.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Funcionarios en comisión</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>Nómina de los funcionarios que no perteneciendo al organismo cumplen funciones en el mismo, sea por ser contratados, sea por estar en comisión provenientes de otro organismo, con indicación de compensaciones recibidas con cargo a las partidas asignadas al funcionamiento de los organismos correspondientes.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Perfil de los puestos</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>Perfil de los diferentes puestos de trabajo y currículum actualizado de quienes ocupan aquéllos a partir del jefe de departamento, gerente, director o equivalente hasta el jerarca máximo.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 3</a></li>
+                            <li><a href="#">Link específico 4</a> <span class="fechaMod">(04/09/2012)</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Llamados y concursos</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>Convocatorias a concursos de ingreso para ocupar cargos y resultados de los mismos.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 3</a></li>
+                            <li><a href="#">Link específico 4</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 5 (Art. Nº 14)</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Remuneraciones. Escalara salarial</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>Remuneración mensual nominal de todos los funcionarios incluyendo todas las prestaciones en razón de los diferentes sistemas de compensación que se aplicaren.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Viáticos</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>Indicación de los viáticos recibidos y la determinación de su utilización.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 3</a></li>
+                            <li><a href="#">Link específico 4</a> <span class="fechaMod">(04/09/2012)</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Comisiones en el exterior</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>Listado de comisiones de servicio en el exterior de los funcionarios, viáticos percibidos, razón del viaje y resultados del mismo, incluyendo a todas las personas que integren la delegación sin excepción alguna.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 3</a></li>
+                            <li><a href="#">Link específico 4</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 5 (Art. Nº 14)</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Presupuesto asignado y su ejecución. Auditorías</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p><strong>Presupuesto y ejecución</strong></p>
+                        <ol>
+                            <li>Ingresos recibidos por cualquier concepto, con indicación del responsable en la recepción, administración y ejecución.</li>
+                            <li>Ingresos asignados por el presupuesto nacional.</li>
+                            <li>Estados financieros y balances generales de gastos.</li>
+                        </ol>
+                        <p><strong>Auditorías</strong></p>
+                        <ol>
+                            <li>Número y tipo de auditorías.</li>
+                            <li>Número de observaciones realizadas por rubro de auditoría sujeto a revisión.</li>
+                            <li>Total de aclaraciones efectuadas por el sujeto obligado.</li>
+                        </ol>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Licitaciones</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>"Pliegos de bases y condiciones y resoluciones". El vínculo con el sitio de compras estatales no es para todos los sujetos obligados sino sólo para los organismos públicos estatales.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Presupuesto asignado por organismos internacionales</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>Las partidas presupuestales provenientes de convenios con organismos internacionales o que se gestionen a través de éstos.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 3</a></li>
+                            <li><a href="#">Link específico 4</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 5 (Art. Nº 14)</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Financiamiento a partidos políticos</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>Montos otorgados en carácter de financiamiento a los diferentes Partidos Políticos por parte del Estado.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Calendario de reuniones</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>Calendario de reuniones, citaciones de comisión, de directorios, de plenarios, de asambleas, que sean convocadas, así como presencias del orden del día de la convocatoria y resoluciones y resultados de las mismas.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 3</a></li>
+                            <li><a href="#">Link específico 4</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 5 (Art. Nº 14)</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Concesiones, licencias, permisos y autorizaciones</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>Concesiones, licencias, permisos y autorizaciones debiendo publicarse el objeto, nombre o razón social del titular, así como si el contrato involucra el aprovechamiento de bienes, servicios o recursos públicos.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 3</a></li>
+                            <li><a href="#">Link específico 4</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 5 (Art. Nº 14)</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Programas educativos</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>Programas educativos que se encuentran vigentes y correlaciones de adecuación en relación con los últimos dos planes de estudios inmediatos anteriores.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Información sobre capacitación</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>Listado de programas de capacitación, número de funcionarios capacitados así como sus evaluaciones.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 3</a></li>
+                            <li><a href="#">Link específico 4</a> <span class="fechaMod">(04/09/2012)</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Evaluaciones de los funcionarios</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>Indicadores de gestión de evaluaciones al desempeño académico y/o administrativo.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Partidos y agrupaciones políticas</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>Listados de partidos y agrupaciones políticas que se encuentran registrados.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Resultado de las elecciones</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>Resultados totales de las elecciones y las discriminaciones que se consideren útiles para la ciudadanía.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Fecha de la última actualización</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>La fecha de la última actualización.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Datos de contacto</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>Domicilio postal y electrónico y números telefónicos oficiales del sujeto obligado.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Términos de uso y condiciones</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>Información sobre la política de seguridad y protección de datos.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 3</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Otra información útil</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>Cualquier otra información que pudiere ser de utilidad o relevante para el conocimiento y evaluación de las funciones y políticas públicas que son responsabilidad del sujeto obligado.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 3</a></li>
+                            <li><a href="#">Link específico 4</a> <span class="fechaMod">(04/09/2012)</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Expropiaciones</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>El listado de expropiaciones que por razones de utilidad pública se cumplan.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 3</a></li>
+                            <li><a href="#">Link específico 4</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 5 (Art. Nº 14)</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Proyectos coordinados con otros organismos</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>La coordinación de proyectos con las intendencias, entes autónomos, servicios descentralizados, personas jurídicas de derecho público no estatal, así como aquellos con los sectores empresariales y sociales.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Presupuesto aprobado por el Parlamento</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>El presupuesto que haya sido aprobado por el Parlamento y las adecuaciones presupuestales que se sucedan en las diferentes rendiciones de cuentas.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Más información</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <p>Toda aquella información que se considere de utilidad o sea importante para el conocimiento y evaluación de las funciones y políticas públicas bajo responsabilidad de cada dependencia y entidad.</p>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Mapa del sitio</h3>
+                            <span class="rightSmContent">Responsable: Nombre del responsable</span>
+                        </div>
+                        <ul>
+                            <li><a href="#">Link específico 1</a> <span class="fechaMod">(04/09/2012)</span></li>
+                            <li><a href="#">Link específico 2 (Art. Nº 47)</a> <span class="fechaMod">(04/09/2012)</span></li>
+                        </ul>
+                    </li>
+                </ul>
+                <p class="mTop floatDer">Fecha de la última actualización: <strong>22/07/2013</strong></p>
+                <div class="clearFloat"></div>
+                <h2>Ítems que no aplican al organismo (art. 39 Decreto N° 232/2010)</h2>
+                <ul class="boxes-transparencia-activa">
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Comisiones en el exterior</h3>
+                            <span class="leftSmContent">No aplica</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Financiamiento a partidos políticos</h3>
+                            <span class="leftSmContent">No aplica</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Resultado de las elecciones</h3>
+                            <span class="leftSmContent">No aplica</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="listaHeader">
+                            <h3>Expropiaciones</h3>
+                            <span class="leftSmContent">No aplica</span>
+                        </div>
+                    </li>
+                </ul>
+                <div class="shareNoticiaIcns clearFloat">
+                    <ul>
+                        <li>
+                            <a class="hideTextRead" href="#" title="RSS">
+                                <span class="icn-rss">Ir a RSS</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="hideTextRead" href="#" title="Enviar">
+                                <span class="icn-msg">Enviar mensaje</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a  class="hideTextRead" href="#" title="Imprimir contenido del sitio">
+                                <span class="icn-print">Imprimir</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    	    </main>
+		</div>
+        <!-- ACCESOS RÁPIDOS -->
+        <div class="accesosRapidos">
+            <ul class="accesos">
+                <li>
+                    <nav role="navigation">
+                        <ul>
+                            <li><a href="preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+                            <li><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                            <li><a href="#">Item 5</a></li>
+                            <li><a href="#">Ver todas las preguntas</a></li>
+                        </ul>
+                    </nav>
+                </li>
+                <li>
+                    <nav role="navigation">
+                        <ul>
+                            <li><a href="#">Título A</a></li>
+                            <li><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                            <li><a href="#">Item 5</a></li>
+                            <li><a href="#">Ver todos los títulos A</a></li>
+                        </ul>
+                    </nav>
+                </li>
+                <li>
+                    <nav role="navigation">
+                        <ul>
+                            <li><a href="#">Título B</a></li>
+                            <li><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                            <li><a href="#">Item 5</a></li>
+                            <li><a href="#">Ver todos los títulos B</a></li>
+                        </ul>
+                    </nav>
+                </li>
+                <li>
+                    <nav role="navigation">
+                        <ul>
+                            <li><a href="#">Título C</a></li>
+                            <li><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                            <li><a href="#">Item 5</a></li>
+                            <li><a href="#">Ver todos los títulos C</a></li>
+                        </ul>
+                    </nav>
+                </li>
+            </ul>
+        </div>
+        <!-- FOOTER PRINCIPAL -->
+        <footer class="footer" role="contentinfo">
+            <address>
+                <ul class="floatIzq">
+                    <li><strong>Nombre de la Organización</strong></li>
+                    <li>Dirección: Oficina Central: Xxxxxxx 0000, piso 0- Montevideo, Uruguay</li>
+                    <li>Teléfono: 0000 0000 opción 0 - Horario de atención: Xxxxx a Xxxxxxx de 00:00 a 00:00</li>
+                    <li>Mail: <a href="mailto:mail@mail.gub.uy">mail@mail.gub.uy</a></li>
+                </ul>
+            </address>
+            <ul class="listaHorizontal redesSociales">
+                <li>
+                    <a href="#" title="Ir a red social 1">
+                        <img src="http://placehold.it/35x35" alt="Logo de red social 1">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Ir a red social 2">
+                    <img src="http://placehold.it/35x35" alt="Logo de red social 2">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="Ir a red social 3">
+                        <img src="http://placehold.it/35x35" alt="Logo de red social 3">
+                    </a>
+                </li>
+            </ul>
+            <nav role="navigation">
+                <ul class="floatDer linksFooter">
+                    <li><a href="declaracion-accesibilidad.html">Declaración de Accesibilidad</a></li>
+                    <li><a href="terminos-uso.html">Términos de uso</a></li>
+                    <li><a href="politica-privacidad.html">Política de Privacidad</a></li>
+                    <li><a href="mapa-sitio.html">Mapa del sitio</a></li>
+                </ul>
+            </nav>
+        </footer>
+	</div>
+    <!-- JS/HOVERINTENT -->
+    <script type="text/javascript" src="_js/hoverIntent.min.js"></script>
+    <!-- JS/DOUBLETAPTOGO -->
+    <script type="text/javascript" src="_js/doubletaptogo.min.js"></script>
+    <!-- JS/GENERAL -->
+    <script type="text/javascript" src="_js/general.js"></script>
+    <!-- JS/IE - MEDIAQUERIES + PSEUDOCLASES -->
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="_js/css3-mediaqueries.js"></script>
+        <script type="text/javascript" src="_js/selectivizr.js"></script>
+    <![endif]-->
+</body>
+</html>
