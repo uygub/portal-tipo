@@ -826,21 +826,27 @@ $(function () {
 var navContainer = '.Nav > .Container';
 
 function putSearchInsideMenu() {
-  var headerSearch = $('.Header-search .Search').clone();
-  headerSearch.addClass('Nav-search');
-  headerSearch.prependTo(navContainer);
+  if ($('.Header-search .Search').length) {
+    var headerSearch = $('.Header-search .Search').clone();
+    headerSearch.addClass('Nav-search');
+    headerSearch.prependTo(navContainer);
+  }
 }
 
 function removeSearchInsideMenu() {
-  $('.Nav > .Container > .Search').remove();
+  if ($('.Nav > .Container > .Search').length) {
+    $('.Nav > .Container > .Search').remove();
+  }
 }
 
 function putTopNavInsideMenu() {
-  var headerTopNav = $('.Header-top-nav').clone();
-  headerTopNav.removeClass('Header-top-nav').addClass('Nav-top-nav');
+  if ($('.Header-top-nav').length) {
+    var headerTopNav = $('.Header-top-nav').clone();
+    headerTopNav.removeClass('Header-top-nav').addClass('Nav-top-nav');
 
-  $(navContainer).append('<span class="Nav-listSubtitle List-subtitle">Accesos Rápidos</span>');
-  headerTopNav.appendTo(navContainer);
+    $(navContainer).append('<span class="Nav-listSubtitle List-subtitle">Accesos Rápidos</span>');
+    headerTopNav.appendTo(navContainer);
+  }
 }
 
 /**
@@ -848,8 +854,10 @@ function putTopNavInsideMenu() {
  */
 
 function removeTopNavInsideMenu() {
-  $('.Nav-top-nav').remove();
-  $(navContainer).find('.Nav-listSubtitle').remove();
+  if ($('.Nav-top-nav').length) {
+    $('.Nav-top-nav').remove();
+    $(navContainer).find('.Nav-listSubtitle').remove();
+  }
 }
 
 /**
@@ -944,16 +952,6 @@ $('.Nav-item').click(function () {
 });
 
 /**
- * Abrir menu de sitio padre en minisitio
- */
-
-/*if ($('.js-parentNavTrigger')) {
-  $('.js-parentNavTrigger').click(function () {
-    $('.Header-parent-nav').toggleClass('u-show');
-  });
-}*/
-
-/**
  * Carousel Inicializacion
  */
 
@@ -967,3 +965,11 @@ if (jQuery().owlCarousel) {
     });
   });
 }
+
+/**
+ * Remover capa sobre mapa
+ */
+
+$('.Event-map').click(function () {
+  $(this).addClass('is-visible');
+});

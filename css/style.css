@@ -1,5 +1,62 @@
+/* ==========================================================================
+   Estilos para Portal Tipo
+   ========================================================================== */
 /**
- * La hoja de estilos portal-tipo.css no debe modificarse
- * Para escribir nuevas reglas de estilos utilizar esta hoja
+ * Definir los colores respetando los contrastes indicados
  */
+/* Menu Principal
+   ========================================================================== */
+.Nav {
+  background-color: #0060a3;
+  /* contraste con blanco (*1) */
+}
+
+.Nav-subnav,
+.Nav-item > a:hover {
+  background-color: #004270;
+  /* oscurecer color de fondo (*1) */
+}
+
+/* Colores de contenedores
+   ========================================================================== */
+.Date-month,
+.Box--color1 {
+  background-color: #0060a3;
+  /* constraste con blanco */
+}
+
+.Box--color2 {
+  background-color: #fcd649;
+  /* constraste con negro */
+}
+
+.Box--color3 {
+  background-color: #33236a;
+  /* contraste con blanco */
+}
+
+/* Hero
+   ========================================================================== */
+.Hero--circle {
+  background-color: #33236a;
+  /* contraste con blanco */
+}
+
+.Hero:before {
+  opacity: .5;
+  background-color: #211644;
+  /* color de capa de opacidad */
+}
+
+/* Footer
+   ========================================================================== */
+.Footer-nav {
+  background-color: #0060a3;
+  /* (*1) */
+}
+
+.Footer-links {
+  border-bottom-color: #0060a3;
+  /* usar mismo color que el fondo (*1) */
+}
 /*# sourceMappingURL=style.css.map */

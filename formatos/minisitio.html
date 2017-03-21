@@ -48,12 +48,16 @@
             <a href="#" class="Header-parent-logo">Sitio padre</a>
           </div>
           <div class="Bar-cell">
-            <span class="Header-openParentNav js-parentNavTrigger u-md-hide">
-              <span class="u-caret"></span>
+            <span class="Header-openParentNav u-md-hide collapsed"
+                  role="button"
+                  aria-expanded="false"
+                  data-toggle="collapse"
+                  data-target="#js-parentNav">
+              <span class="Caret"></span>
             </span>
           </div>
           <div class="Bar-cell u-md-size4of6">
-            <ul class="Header-parent-nav u-md-show">
+            <ul id="js-parentNav" class="Header-parentNav collapse">
               <li><a href="#">Institucional</a></li>
               <li><a href="#">Normativa</a></li>
               <li><a href="#">Trámites y servicios</a></li>
