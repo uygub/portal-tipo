@@ -6,7 +6,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <title>
-    Solicitud de acceso a la Información Pública - Portal Tipo
+    Solicitud de acceso a la Información Pública  Portal Tipo
   </title>
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,7 +34,7 @@
   <meta property="og:description" content="">
   <meta property="og:image" content="">
 </head>
-<body>
+<body class="fondo-gris">
   <a class="SkipLink" href="#contenido">Ir al contenido</a>
   <a class="SkipLink" href="#menu">Ir al menú de navegación</a>
 
@@ -185,6 +185,7 @@
                 <li><a href="../contenidos/politica-privacidad.html">Política de privacidad</a></li>
                 <li><a href="../contenidos/transparencia.html">Transparencia</a></li>
                 <li><a href="../contenidos/transparencia-activa.html">Transparencia activa</a></li>
+                <li><a href="../contenidos/solicitud-acceso-informacion-publica.html">Solicitud de acceso a información pública</a></li>
                 <li><a href="../contenidos/contacto.html">Contacto</a></li>
               </ul>
             </div>
@@ -218,11 +219,120 @@
           <div class="Page">
             
 
-<h1>Solicitud de acceso a la Información Pública</h1>
+<h2 class="Page-title">Solicitud de acceso a la Información Pública</h2>
 
-<p>Si desea realizar una solicitud de acceso a la información pública, puede completar y enviar el formulario que se adjunta en esta sección. Recuerde que el plazo para responder la solicitud es de 20 días hábiles a partir de la solicitud. El plazo podrá prorrogarse por otros 20 días hábiles en casos excepcionales.</p>
+<p class="Page-description">Si desea realizar una solicitud de acceso a la información pública, puede completar y enviar el formulario que se adjunta en esta sección. Recuerde que el plazo para responder la solicitud es de 20 días hábiles a partir de la solicitud. El plazo podrá prorrogarse por otros 20 días hábiles en casos excepcionales.</p>
 
-[FORM]
+
+
+<form action="#" class="Form">
+  <p class="u-textRight u-textSmall">Los campos indicados con * son obligatorios</p>
+
+  <fieldset>
+    <legend class="Form-title">Solicitud de acceso</legend>
+
+    <fieldset>
+      <legend>Información personal</legend>
+
+      <div class="Form-group">
+        <label for="nombre" class="Form-label">Nombre completo:*</label>
+        <input type="text" class="Form-widget" id="nombre" placeholder="Escriba el nombre completo">
+      </div>
+
+      <div class="Form-group">
+        <label for="dni" class="Form-label">Documento de identidad:</label>
+        <input type="text" class="Form-widget" id="dni">
+      </div>
+
+      <div class="Form-group">
+        <label for="direccion" class="Form-label">Dirección:*</label>
+        <input type="text" class="Form-widget" id="direccion">
+      </div>
+
+      <div class="Form-group">
+        <label for="telefono" class="Form-label">Teléfono:*</label>
+        <input type="tel" class="Form-widget" name="tel" id="telefono">
+      </div>
+
+       <div class="Form-group">
+        <label for="correo" class="Form-label">Correo electrónico:*</label>
+        <input type="email" class="Form-widget" id="correo" placeholder="correo@dominio.com">
+      </div>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Datos de la solicitud</legend>
+
+      <div class="Form-group">
+        <label for="solicitud" class="Form-label">Información solicitada:*</label>
+        <textarea class="Form-widget" name="solicitud" id="solicitud"> </textarea>
+      </div>
+
+      <div class="Form-group">
+        <span class="Form-label">Formato de respuesta:*</span>
+
+        <div class="Form-widget">
+          <label for="pormail" class="Form-radio">
+            <input type="radio" id="pormail" name="pormail">
+            <span>Mail con archivos adjuntos</span>
+          </label>
+          <label for="fotocopia" class="Form-radio">
+            <input type="radio" id="fotocopia" name="fotocopia">
+            <span>Fotocopia</span>
+          </label>
+          <label for="cd" class="Form-radio">
+            <input type="radio" id="cd" name="cd">
+            <span>CD</span>
+          </label>
+        </div>
+      </div>
+
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Cláusula de consentimiento informado</legend>
+
+      <p><em>"De conformidad con la Ley N° 18.331, de 11 de agosto de 2008, de Protección de Datos Personales y Acción de Habeas Data (LPDP), los datos suministrados por usted quedarán incorporados en una base de datos, la cual será procesada exclusivamente para la siguiente finalidad: **Objetivo del formulario**.</em></p>
+
+      <p>Los datos personales serán tratados con el grado de protección adecuado, tomándose las medidas de seguridad necesarias para evitar su alteración, pérdida, tratamiento o acceso no autorizado por parte de terceros que lo puedan utilizar para finalidades distintas para las que han sido solicitadas al usuario.</p>
+
+      <p>El responsable de la base de datos es **Titular de la base** y la dirección donde podrá ejercer los derechos de acceso, rectificación, actualización, inclusión o supresión, es **Dirección del organismo**, según lo establecido en la LPDP".</p>
+
+      <div class="Form-group">
+        <span class="Form-label">Términos de la cláusula:*</span>
+
+        <div class="Form-widget">
+          <label for="acepto" class="Form-radio">
+            <input type="radio" id="acepto" name="terminos">
+            <span>Acepto los términos</span>
+          </label>
+          <label for="no-acepto" class="Form-radio">
+            <input type="radio" id="no-acepto" name="terminos">
+            <span>No acepto los términos (no se enviará el mensaje)</span>
+          </label>
+        </div>
+      </div>
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Verificación de seguridad</legend>
+
+      <div class="Form-group">
+        <label for="captcha" class="Form-label">Comprobación de seguridad:*</label>
+
+        <div class="Form-widget">
+          <span class="Form-subLabel">Escribe la tercera palabra de: Hoy está lloviendo</span>
+          <input type="text" id="captcha">
+        </div>
+      </div>
+    </fieldset>
+  </fieldset>
+
+  <button class="Button Button--primary u-right">Enviar solicitud</button>
+</form>
 
           </div>
         </div>

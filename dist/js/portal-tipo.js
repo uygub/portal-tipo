@@ -777,6 +777,57 @@ a.fn.owlCarousel.Constructor.Plugins.Animate=e}(window.Zepto||window.jQuery,wind
 
 }(jQuery);
 
+/* GENERAL
+============================================================== */
+$(document).ready(function() {
+	/* DetecciÃ³n de javascript */
+	$('html').removeClass('js-off');
+
+	var anchoPantalla = $(window).width();
+	if(anchoPantalla < 980){
+		insertDataTitle();
+	}
+
+});
+
+
+/* Titulos de las tablas (ready y resize) */
+var setContent = false;
+
+function insertDataTitle(){
+	if(!setContent){
+		$('table td').each(function() {
+			if($(this).attr( "data-title" )){
+				var dataTitle = $(this).attr( "data-title" );
+				$(this).prepend( '<span class="content-before">' + dataTitle + '</span>' );
+			}
+		});
+
+		setContent = true;
+	}
+}
+
+function deleteDataTitle(){
+	$('table td').each(function() {
+		if($(this).attr( "data-title" )){
+			$('.content-before').remove();
+		}
+	});
+
+	setContent = false;
+}
+
+$(window).resize(function() {
+	anchoPantalla = $(window).width();
+
+	if(anchoPantalla <= 980){
+  	insertDataTitle();
+	}
+	if((anchoPantalla > 980) & (setContent)){
+		deleteDataTitle();
+	}
+});
+
 /**
  * Variables de Breakpoints
  */
@@ -935,7 +986,37 @@ $.fn.accessibleMenu = function () {
     $(this).parents('.' + itemClass).removeClass(hoverClass).find('> a').toggleAttr('aria-expanded', 'true', 'false');
     $(this).closest('.' + subnavClass).toggleAttr('aria-hidden', 'true', 'false').toggleAttr('aria-expanded', 'true', 'false');
   });
+
 };
+
+/*
+* Compartir accesible
+*/
+
+$('.Dropdown').focus(function () {
+  $(this).children('.Dropdown-menu').css('display', 'block');
+}).blur(function () {
+ocultarOpcionesCompartir($(this).children('.Dropdown-menu'));
+});
+
+var timeoutID;
+
+$(".List-item").focus(function () {
+if (timeoutID) {
+  clearTimeout(timeoutID);
+  timeoutID = null;
+}
+});
+
+function ocultarOpcionesCompartir(element) {
+timeoutID = setTimeout(function () {
+  $(element).css('display', 'none');
+}, 1);
+}
+
+$('.List-item').blur(function(){
+ocultarOpcionesCompartir($(this).closest('.Dropdown-menu'));
+});
 
 /**
  * Inicializar Menu Accesible
@@ -964,6 +1045,18 @@ if (jQuery().owlCarousel) {
       navText: ['Anterior', 'Siguiente']
     });
   });
+
+  $(document).keyup(function (event) {
+ var owl = $('.Carousel');
+    if (owl.is(":focus")) {
+   if (event.keyCode == 37) {
+       owl.trigger('prev.owl.carousel');
+   }
+   else if (event.keyCode == 39) {
+       owl.trigger('next.owl.carousel');
+   }
+    }
+ });
 }
 
 /**

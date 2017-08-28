@@ -6,7 +6,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <title>
-    Concursos - Portal Tipo
+    Concursos  Portal Tipo
   </title>
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,7 +34,7 @@
   <meta property="og:description" content="">
   <meta property="og:image" content="">
 </head>
-<body>
+<body class="fondo-gris">
   <a class="SkipLink" href="#contenido">Ir al contenido</a>
   <a class="SkipLink" href="#menu">Ir al menú de navegación</a>
 
@@ -185,6 +185,7 @@
                 <li><a href="../contenidos/politica-privacidad.html">Política de privacidad</a></li>
                 <li><a href="../contenidos/transparencia.html">Transparencia</a></li>
                 <li><a href="../contenidos/transparencia-activa.html">Transparencia activa</a></li>
+                <li><a href="../contenidos/solicitud-acceso-informacion-publica.html">Solicitud de acceso a información pública</a></li>
                 <li><a href="../contenidos/contacto.html">Contacto</a></li>
               </ul>
             </div>
@@ -222,10 +223,10 @@
 
   <p class="Page-description">El portal Uruguay Concursa brinda una opción a través de un RSS por la cual los organismos pueden poner en sus portales la lista completa de sus propios llamados, o bien de acuerdo al estado en el que se encuentren.</p>
 
-<h2 id="-c-mo-generar-la-url-para-mostrar-mis-llamados-con-un-rss-">¿Cómo generar la URL para mostrar mis llamados con un RSS?</h2>
+<h3 id="-c-mo-generar-la-url-para-mostrar-llamados-con-un-rss-">¿Cómo generar la URL para mostrar llamados con un RSS?</h3>
 <p>  La URL para poder consumir la salida RSS es la siguiente:</p>
 <pre><code>  https://www.uruguayconcursa.gub.uy/Portal/servlet/com.si.recsel.arssllamados?[Código],[Estado]</code></pre>
-<h3 id="indicaciones">Indicaciones</h3>
+<h4 id="indicaciones">Indicaciones</h4>
 <ul>
 <li>[Código] corresponde al parámetro para filtrar por organismo.</li>
 <li>[Estado] corresponde al parámetro para filtrar por estado.</li>
@@ -234,7 +235,7 @@
 <li>Si ambos [Código] y [Estado] son vacíos, no es obligatorio incluir la coma ni el signo de interrogación.</li>
 <li>Si [Estado] es vacío, pero se manda [Código], la coma de separación no es obligatoria.</li>
 </ul>
-<h3 id="estados">Estados</h3>
+<h4 id="estados">Estados</h4>
 <ol>
 <li><strong>Llamados abiertos:</strong> Corresponden a los llamados cuyo estado web es “Abierto”. El parámetro a pasar es ABIERTO.</li>
 <li><strong>Llamados en proceso:</strong> Corresponden a los llamados cuyo estado web es “Inscripciones Cerradas”, o cuyo estado web corresponde a alguna fase externa del llamado. El parámetro a pasar es PROCESO.</li>
@@ -244,7 +245,7 @@
 </small></p>
 </li>
 </ol>
-<h2 id="ejemplos-de-url-con-rss-personalizado">Ejemplos de URL con RSS personalizado</h2>
+<h3 id="ejemplos-de-url-con-rss-personalizado">Ejemplos de URL con RSS personalizado</h3>
 <ul>
 <li>Seleccionar solo los llamados en estado abierto (sin filtrar por organismo):
 <a href="https://www.uruguayconcursa.gub.uy/Portal/servlet/com.si.recsel.arssllamados?,ABIERTO">https://www.uruguayconcursa.gub.uy/Portal/servlet/com.si.recsel.arssllamados?,ABIERTO</a></li>
