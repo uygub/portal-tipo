@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+<head>
+  
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <title>
+    Transparencia activa  Portal Tipo
+  </title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- styles -->
+  <link rel="stylesheet" href="../dist/css/portal-tipo.css">
+  <link rel="stylesheet" href="../css/style.css">
+  
+  <!-- favicons -->
+  <link rel="shortcut icon" type="image/ico" href="../img/favicons/favicon.ico">
+  <link rel="icon" type="image/png" href="../img/favicons/favicon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../img/favicons/favicon-192.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/favicon-180.png">
+  
+  <!-- polyfills -->
+  <!--[if lt IE 9]>
+    <script src="../dist/js/vendor/polyfills.js"></script>
+  <![endif]-->
+  
+  <!-- meta info -->
+  <meta name="theme-color" content="#005cb9">
+  <meta name="description" content="">
+  
+  <meta property="og:title" content="Transparencia activa - Portal Tipo">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+</head>
+<body class="fondo-gris">
+  <a class="SkipLink" href="#contenido">Ir al contenido</a>
+  <a class="SkipLink" href="#menu">Ir al menú de navegación</a>
+
+  
+  <!-- header -->
+  
+  <header class="Header">
+    <div class="Container">
+      <div class="Header-top">
+        <div class="Grid">
+          <div class="Grid-item u-size1of3">
+            <a href="#" class="Header-top-parent">
+              <div class="Flag">
+                <span class="Flag-image">
+                  <img class="Header-parentIcon"
+                       src="../img/parent.svg"
+                       data-fallback="../img/parent.png"
+                       alt="">
+                </span>
+                <span class="Flag-body">Sitio Oficial, República Oriental del Uruguay</span>
+              </div>
+            </a>
+          </div>
+          <div class="Grid-item u-size2of3">
+            <ul class="Header-top-nav">
+              <li><a href="#">Datos abiertos</a></li>
+              <li><a href="#">Concursos</a></li>
+              <li><a href="#">Adquisiciones</a></li>
+              <li><a href="#">Transparencia</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="Header-body">
+        <div class="Bar">
+          <div class="Bar-cell u-md-size2of10">
+            <h1 class="Header-logo">
+              <a href="../index.html">
+                <!-- <img src="../img/logo.svg"
+                     data-fallback="../img/logo.png"
+                     alt="Portal Tipo">
+                 -->
+                <span class="Flag">
+                  <span class="Flag-image">
+                    <img src="../img/parent.svg"
+                     data-fallback="../img/parent.png"
+                     alt="" width="40">
+                  </span>
+                  <span class="Flag-body">
+                    Portal Tipo
+                  </span>
+                </span>
+              </a>
+            </h1>
+          </div>
+  
+          <div class="Bar-cell u-md-size4of10">
+            <div class="Header-tagline">
+              <em>Breve descripción si amerita</em>
+            </div>
+          </div>
+  
+          <div class="Bar-cell u-md-size1of10 u-textRight ">
+            <a class="Header-related" href="http://uruguaydigital.gub.uy/">
+              <img src="../dist/assets/logo-uruguay.svg"
+                   data-fallback="../dist/assets/logo-uruguay.png"
+                   alt="Uruguay Digital" width="100">
+            </a>
+          </div>
+  
+          <div class="Bar-cell">
+            <button class="Header-menuButton js-toggleMainNav">
+              <span class="Header-menuIcon"><span></span></span>
+              <span class="Header-menuButton-text">Menu</span>
+            </button>
+          </div>
+  
+          <div class="Bar-cell u-md-size3of10">
+            <div class="Header-search">
+              <div class="Search Search--b">
+                <form action="#">
+                  <label for="caja-buscador">Buscar</label>
+                  <input id="caja-buscador" class="Search-input" type="search" placeholder="Buscar...">
+                  <input class="Search-button" type="submit" value="Buscar">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- nav -->
+  
+  <nav class="Nav" id="menu">
+    <div class="Container">
+      <ul class="Nav-list">
+        <li class="Nav-item">
+          <a href="#" aria-haspopup="true" aria-expanded="false" id="item-1">Institucional</a>
+          <div class="Nav-subnav" aria-hidden="true" aria-labelledby="item-1">
+            <ul>
+              <li><a href="#">La Institución</a></li>
+                <li><a href="#">Estructura organizativa</a></li>
+                <li><a href="#">Adquisiciones</a></li>
+                <li><a href="#">Concursos</a></li>
+                <li><a href="#">Personal</a></li>
+                <li><a href="#">Información de gestión</a></li>
+                <li><a href="#">Transparencia</a></li>
+                <li><a href="#">Participación</a></li>
+                <li><a href="#">Datos abiertos</a></li>
+                <li><a href="#">Preguntas frecuentes</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="Nav-item"><a href="#">Normativa</a></li>
+          <li class="Nav-item"><a href="#">Trámites y servicios</a></li>
+          <li class="Nav-item"><a href="#">Noticias</a></li>
+          <li class="Nav-item"><a href="#">Formatos</a>
+            <div class="Nav-subnav">
+              <ul>
+                <li><a href="../formatos/carpeta.html">Carpeta (navigation)</a></li>
+                <li><a href="../formatos/carpeta-aside.html">Carpeta (aside)</a></li>
+                <li><a href="../formatos/carpeta-single.html">Carpeta (single)</a></li>
+                <li><a href="../formatos/documento.html">Documento (navigation)</a></li>
+                <li><a href="../formatos/documento-aside.html">Documento (aside)</a></li>
+                <li><a href="../formatos/documento-single.html">Documento (single)</a></li>
+                <li><a href="../formatos/agenda.html">Agenda</a></li>
+                <li><a href="../formatos/descarga.html">Descarga</a></li>
+                <li><a href="../formatos/minisitio.html">Minisitio</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="Nav-item"><a href="#">Contenidos</a>
+            <div class="Nav-subnav">
+              <ul>
+                <li><a href="../contenidos/concursos.html">Concursos</a></li>
+                <li><a href="../contenidos/adquisiciones.html">Adquisiciones</a></li>
+                <li><a href="../contenidos/participacion.html">Participación</a></li>
+                <li><a href="../contenidos/preguntas-frecuentes.html">Preguntas frecuentes</a></li>
+                <li><a href="../contenidos/datos-abiertos.html">Datos abiertos</a></li>
+                <li><a href="../contenidos/tramites-servicios.html">Trámites y servicios</a></li>
+                <li><a href="../contenidos/mapa-del-sitio.html">Mapa del sitio</a></li>
+                <li><a href="../contenidos/declaracion-accesibilidad.html">Declaración de accesibilidad</a></li>
+                <li><a href="../contenidos/terminos-uso.html">Términos de uso</a></li>
+                <li><a href="../contenidos/politica-privacidad.html">Política de privacidad</a></li>
+                <li><a href="../contenidos/transparencia.html">Transparencia</a></li>
+                <li><a href="../contenidos/transparencia-activa.html">Transparencia activa</a></li>
+                <li><a href="../contenidos/solicitud-acceso-informacion-publica.html">Solicitud de acceso a información pública</a></li>
+                <li><a href="../contenidos/contacto.html">Contacto</a></li>
+              </ul>
+            </div>
+          </li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <!-- breadcrumb -->
+  
+  <div class="Breadcrumb">
+    <div class="Container">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Institucional</a></li>
+        <li><a href="#">Municipios</a></li>
+        <li><a href="#">Lorem ipsum.</a></li>
+        <li><a href="#">Tenetur, similique!</a></li>
+        <li><a href="#">Praesentium, quas!</a></li>
+        <li><a href="#">Dicta, aliquam!</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- contenido -->
+  <main class="u-main" id="contenido">
+    <div class="Container">
+      <div class="Grid">
+        <div class="Grid-item Grid-item--center u-md-size8of10">
+          <div class="Page">
+            
+
+<div class="Page-document">
+  <h2 class="Page-title">Transparencia activa</h2>
+
+  <p class="Page-description">Conforme a lo establecido por los artículos 5° de la Ley Nº 18.381, de Derecho de Acceso a la Información Pública, y 38 y siguientes del Decreto N° 232/010, se presenta aquí la información de transparencia activa de NOMBRE ORGANISMO.</p>
+
+
+  <h3>Evolución histórica y funciones</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>Creación y evolución histórica del sujeto obligado conjuntamente con sus cometidos.</p>
+
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 3</a></li>
+    <li><a href="#">Link específico 4</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 5 (Art. Nª 14)</a></li>
+  </ul>
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Evolución histórica y funciones</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>Creación y evolución histórica del sujeto obligado conjuntamente con sus cometidos.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 3</a></li>
+    <li><a href="#">Link específico 4</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 5 (Art. Nº 14)</a></li>
+  </ul>
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+
+  <h3>Estructura orgánica. Organigrama</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>Estructura orgánica en un formato que habilite la vinculación de cada oficina con ésta, las facultades y responsabilidades que le corresponden de conformidad con la normativa vigente.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 3</a></li>
+    <li><a href="#">Link específico 4</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 5 (Art. Nº 14)</a></li>
+  </ul>
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+
+  <h3>Marco jurídico aplicable al organismo</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>El marco jurídico aplicable a cada organismo.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 3</a></li>
+    <li><a href="#">Link específico 4</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 5 (Art. Nº 14)</a></li>
+  </ul>
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+
+  <h3>Proyectos: metas y cumplimiento</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>Programas operativos de largo y corto plazo y mecanismos que permitan visualizar metas y cumplimiento de éstas.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 3</a></li>
+  </ul>
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+
+  <h3>Diario de sesiones</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 3</a></li>
+  </ul>
+
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Anteproyectos y proyectos de ley presentados</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>Los anteproyectos y proyectos de ley que se presenten, así como cualquier otro tipo de comunicación legislativa, la indicación del trámite de que ha sido objeto y las resoluciones que sobre éstos recaigan.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 3</a></li>
+    <li><a href="#">Link específico 4</a> (04/09/2012)</li>
+  </ul>
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Servicios y trámites</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>Listado con los servicios que ofrece y los programas que administra incluyendo los trámites para acceder a ellos y la población objetivo a que están dirigidos.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 3</a></li>
+    <li><a href="#">Link específico 4</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 5 (Art. Nº 14)</a></li>
+  </ul>
+
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Autoridades</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>El listado de los funcionarios, a partir del jefe de departamento, gerente, director o equivalente hasta el jerarca máximo, incluyendo: nombre, domicilio postal, electrónico y números telefónicos oficiales.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 3</a></li>
+    <li><a href="#">Link específico 4</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 5 (Art. Nº 14)</a></li>
+  </ul>
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+
+  <h3>Comisiones integradas</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>En caso de tratarse de órganos legislativos, las comisiones que se integren, estableciendo el número de convocatorias, presencias y ausencias en los diferentes órganos, inclusive de los suplentes proclamados por la Corte Electoral.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+  </ul>
+
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Funcionarios en comisión</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>Nómina de los funcionarios que no perteneciendo al organismo cumplen funciones en el mismo, sea por ser contratados, sea por estar en comisión provenientes de otro organismo, con indicación de compensaciones recibidas con cargo a las partidas asignadas al funcionamiento de los organismos correspondientes.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+  </ul>
+
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Perfil de los puestos</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>Perfil de los diferentes puestos de trabajo y currículum actualizado de quienes ocupan aquéllos a partir del jefe de departamento, gerente, director o equivalente hasta el jerarca máximo.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 3</a></li>
+    <li><a href="#">Link específico 4</a> (04/09/2012)</li>
+  </ul>
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Llamados y concursos</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>Convocatorias a concursos de ingreso para ocupar cargos y resultados de los mismos.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 3</a></li>
+    <li><a href="#">Link específico 4</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 5 (Art. Nº 14)</a></li>
+  </ul>
+
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Remuneraciones. Escalara salarial</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>Remuneración mensual nominal de todos los funcionarios incluyendo todas las prestaciones en razón de los diferentes sistemas de compensación que se aplicaren.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+  </ul>
+
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Viáticos</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>Indicación de los viáticos recibidos y la determinación de su utilización.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 3</a></li>
+    <li><a href="#">Link específico 4</a> (04/09/2012)</li>
+  </ul>
+
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Comisiones en el exterior</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>Listado de comisiones de servicio en el exterior de los funcionarios, viáticos percibidos, razón del viaje y resultados del mismo, incluyendo a todas las personas que integren la delegación sin excepción alguna.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 3</a></li>
+    <li><a href="#">Link específico 4</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 5 (Art. Nº 14)</a></li>
+  </ul>
+
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Presupuesto asignado y su ejecución. Auditorías</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p><strong>Presupuesto y ejecución</strong></p>
+  <ol>
+    <li>Ingresos recibidos por cualquier concepto, con indicación del responsable en la recepción, administración y ejecución.</li>
+    <li>Ingresos asignados por el presupuesto nacional.</li>
+    <li>Estados financieros y balances generales de gastos.</li>
+  </ol>
+  <p><strong>Auditorías</strong></p>
+  <ol>
+    <li>Número y tipo de auditorías.</li>
+    <li>Número de observaciones realizadas por rubro de auditoría sujeto a revisión.</li>
+    <li>Total de aclaraciones efectuadas por el sujeto obligado.</li>
+  </ol>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+  </ul>
+
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Licitaciones</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>"Pliegos de bases y condiciones y resoluciones". El vínculo con el sitio de compras estatales no es para todos los sujetos obligados sino sólo para los organismos públicos estatales.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+  </ul>
+
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Presupuesto asignado por organismos internacionales</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>Las partidas presupuestales provenientes de convenios con organismos internacionales o que se gestionen a través de éstos.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 3</a></li>
+    <li><a href="#">Link específico 4</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 5 (Art. Nº 14)</a></li>
+  </ul>
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+
+  <h3>Financiamiento a partidos políticos</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>Montos otorgados en carácter de financiamiento a los diferentes Partidos Políticos por parte del Estado.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+  </ul>
+
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Calendario de reuniones</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>Calendario de reuniones, citaciones de comisión, de directorios, de plenarios, de asambleas, que sean convocadas, así como presencias del orden del día de la convocatoria y resoluciones y resultados de las mismas.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 3</a></li>
+    <li><a href="#">Link específico 4</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 5 (Art. Nº 14)</a></li>
+  </ul>
+
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Concesiones, licencias, permisos y autorizaciones</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>Concesiones, licencias, permisos y autorizaciones debiendo publicarse el objeto, nombre o razón social del titular, así como si el contrato involucra el aprovechamiento de bienes, servicios o recursos públicos.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 3</a></li>
+    <li><a href="#">Link específico 4</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 5 (Art. Nº 14)</a></li>
+  </ul>
+
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Programas educativos</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>Programas educativos que se encuentran vigentes y correlaciones de adecuación en relación con los últimos dos planes de estudios inmediatos anteriores.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 3</a></li>
+  </ul>
+
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Información sobre capacitación</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>Listado de programas de capacitación, número de funcionarios capacitados así como sus evaluaciones.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 3</a></li>
+    <li><a href="#">Link específico 4</a> (04/09/2012)</li>
+  </ul>
+
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Evaluaciones de los funcionarios</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>Indicadores de gestión de evaluaciones al desempeño académico y/o administrativo.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 3</a></li>
+  </ul>
+
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Partidos y agrupaciones políticas</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>Listados de partidos y agrupaciones políticas que se encuentran registrados.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+  </ul>
+
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Resultado de las elecciones</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>Resultados totales de las elecciones y las discriminaciones que se consideren útiles para la ciudadanía.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 3</a></li>
+  </ul>
+
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Fecha de la última actualización</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>La fecha de la última actualización.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+  </ul>
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+
+  <h3>Datos de contacto</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>Domicilio postal y electrónico y números telefónicos oficiales del sujeto obligado.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 3</a></li>
+  </ul>
+
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Términos de uso y condiciones</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>Información sobre la política de seguridad y protección de datos.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 3</a></li>
+  </ul>
+
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Otra información útil</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>Cualquier otra información que pudiere ser de utilidad o relevante para el conocimiento y evaluación de las funciones y políticas públicas que son responsabilidad del sujeto obligado.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 3</a></li>
+    <li><a href="#">Link específico 4</a> (04/09/2012)</li>
+  </ul>
+
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Expropiaciones</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>El listado de expropiaciones que por razones de utilidad pública se cumplan.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 3</a></li>
+    <li><a href="#">Link específico 4</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 5 (Art. Nº 14)</a></li>
+  </ul>
+
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Proyectos coordinados con otros organismos</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>La coordinación de proyectos con las intendencias, entes autónomos, servicios descentralizados, personas jurídicas de derecho público no estatal, así como aquellos con los sectores empresariales y sociales.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+  </ul>
+
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Presupuesto aprobado por el Parlamento</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>El presupuesto que haya sido aprobado por el Parlamento y las adecuaciones presupuestales que se sucedan en las diferentes rendiciones de cuentas.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+  </ul>
+
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+  <h3>Más información</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <p>Toda aquella información que se considere de utilidad o sea importante para el conocimiento y evaluación de las funciones y políticas públicas bajo responsabilidad de cada dependencia y entidad.</p>
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+  </ul>
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+
+  <h3>Mapa del sitio</h3>
+  <span class="Box-info">Responsable: Nombre del responsable</span>
+
+  <ul>
+    <li><a href="#">Link específico 1</a> (04/09/2012)</li>
+    <li><a href="#">Link específico 2 (Art. Nº 47)</a> (04/09/2012)</li>
+  </ul>
+
+<h4 class="u-h5">Datos abiertos</h4>
+<ul>
+    <li><a href="#">Conjunto de datos</a> (04/09/2012)</li>
+    <li><a href="#">Conjunto de datos 2</a> (04/09/2012)</li>
+</ul>
+
+
+  <h3>Fecha de la última actualización:</h3>
+  <p><strong>22/07/2013</strong></p>
+
+
+  <h3>Ítems que no aplican al organismo</h3>
+  <p>Art. 39 Decreto N° 232/2010</p>
+
+  <h4>Comisiones en el exterior</h4>
+  <p>No aplica</p>
+
+  <h4>Financiamiento a partidos políticos</h4>
+  <p>No aplica</p>
+
+  <h4>Resultado de las elecciones</h4>
+  <p>No aplica</p>
+
+  <h4>Expropiaciones</h4>
+  <p>No aplica</p>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <!-- footer -->
+  
+  <footer class="Footer">
+    <div class="Footer-nav">
+      <div class="Container">
+        <div class="Grid">
+          <div class="Grid-item u-md-size1of3">
+            <div class="Footer-nav-title">
+              Primera sección
+            </div>
+            <ul class="Footer-nav-list List">
+              <li><a href="#">Lorem ipsum dolor sit.</a></li>
+              <li><a href="#">Provident eum mollitia ullam?</a></li>
+              <li><a href="#">Exercitationem in esse error.</a></li>
+              <li><a href="#">Ducimus, excepturi! Quaerat, illum.</a></li>
+            </ul>
+          </div>
+          <div class="Grid-item u-md-size1of3">
+            <div class="Footer-nav-title">
+              Segunda sección
+            </div>
+            <ul class="Footer-nav-list List">
+              <li><a href="#">Lorem ipsum dolor sit.</a></li>
+              <li><a href="#">Provident eum mollitia ullam?</a></li>
+              <li><a href="#">Exercitationem in esse error.</a></li>
+              <li><a href="#">Ducimus, excepturi! Quaerat, illum.</a></li>
+            </ul>
+          </div>
+          <div class="Grid-item u-md-size1of3">
+            <div class="Footer-nav-title">
+              Tercera sección
+            </div>
+            <ul class="Footer-nav-list List">
+              <li><a href="#">Lorem ipsum dolor sit.</a></li>
+              <li><a href="#">Provident eum mollitia ullam?</a></li>
+              <li><a href="#">Exercitationem in esse error.</a></li>
+              <li><a href="#">Ducimus, excepturi! Quaerat, illum.</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="Footer-info">
+      <div class="Footer-header">
+        <div class="Container">
+          <div class="Bar">
+            <div class="Bar-cell u-size1of2"><a class="Footer-siteName" href="#">Portal Tipo</a></div>
+            <div class="Bar-cell u-size1of2 u-textRight">
+              <ul class="Footer-socialMedia">
+                <li><a href="#"><span class="Icon Icon--twitter"></span></a></li>
+                <li><a href="#"><span class="Icon Icon--facebook"></span></a></li>
+                <li><a href="#"><span class="Icon Icon--youtube"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Footer-addresses">
+        <div class="Container">
+          <div class="Grid">
+            <div class="Grid-item u-md-size1of2">
+              <address class="Footer-addresses-item">
+                <span class="Footer-addressName">Oficina Central</span>
+                Dirección: 18 de Julio 1624<br>
+                Teléfono: 4632 4671 al 76<br>
+                Horario de atención al público de 12:30 a 18:00 hs
+              </address>
+            </div>
+            <div class="Grid-item u-md-size1of2">
+              <address class="Footer-addresses-item">
+                <span class="Footer-addressName">Oficina en Montevideo</span>
+  
+                Dirección: 18 de Julio 1624<br>
+                Teléfono: 4632 4671 al 76<br>
+                Horario de atención al público de 12:30 a 18:00 hs
+              </address>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Footer-links">
+        <div class="Container">
+          <ul>
+            <li><a href="#">Declaración de accesibilidad</a></li>
+            <li><a href="#">Términos de Uso</a></li>
+            <li><a href="#">Política de Privacidad</a></li>
+            <li><a href="#">Mapa del Sitio</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  
+  <script src="../dist/js/vendor/jquery.min.js"></script>
+  <script src="../dist/js/portal-tipo.min.js" async></script>
+  
+</body>
+</html>

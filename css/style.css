@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* ==========================================================================
+   Estilos para Portal Tipo
+   ========================================================================== */
+/**
+ * Definir los colores respetando los contrastes indicados
+ */
+/* Menu Principal
+   ========================================================================== */
+.Nav {
+  background-color: #0060a3;
+  /* contraste con blanco (*1) */
+}
+
+.Nav-subnav, .Nav-item.hover, .Nav-item > a:hover, .Nav-item.hover > a, .Nav-list .is-selected {
+  background-color: #004270;
+}
+
+.Nav-subnav a:hover {
+  background-color: #0060a3;
+}
+
+/* Colores de contenedores
+   ========================================================================== */
+.Date-month,
+.Group--color1,
+.Box--color1 {
+  background-color: #0060a3;
+  /* constraste con blanco */
+}
+
+.Group--color2,
+.Box--color2 {
+  background-color: #fcd649;
+  /* constraste con negro */
+}
+
+.Group--color3,
+.Box--color3 {
+  background-color: #33236a;
+  /* contraste con blanco */
+}
+
+.Group--color4,
+.Box--color4 {
+  background-color: #F9F9F9;
+  /* constraste con negro */
+  /* Debe ser #F9F9F9 o un versión clara del color1 */
+}
+
+.Box-header {
+  border-top-color: #0060a3;
+  /* Define el color de borde para algunos contenedores - Se recomiendo usar el color 1 */
+}
+
+/* Hero
+   ========================================================================== */
+.Hero--circle {
+  background-color: #33236a;
+  /* contraste con blanco */
+}
+
+.Hero:before {
+  opacity: .5;
+  background-color: #211644;
+  /* color de capa de opacidad */
+}
+
+/* Footer
+   ========================================================================== */
+.Footer-nav {
+  background-color: #0060a3;
+  /* (*1) */
+}
+
+.Footer-links {
+  border-bottom-color: #0060a3;
+  /* usar mismo color que el fondo (*1) */
+}
+/*# sourceMappingURL=style.css.map */

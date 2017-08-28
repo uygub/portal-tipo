@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+<head>
+  
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <title>
+    Declaración de Accesibilidad  Portal Tipo
+  </title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- styles -->
+  <link rel="stylesheet" href="../dist/css/portal-tipo.css">
+  <link rel="stylesheet" href="../css/style.css">
+  
+  <!-- favicons -->
+  <link rel="shortcut icon" type="image/ico" href="../img/favicons/favicon.ico">
+  <link rel="icon" type="image/png" href="../img/favicons/favicon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../img/favicons/favicon-192.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/favicon-180.png">
+  
+  <!-- polyfills -->
+  <!--[if lt IE 9]>
+    <script src="../dist/js/vendor/polyfills.js"></script>
+  <![endif]-->
+  
+  <!-- meta info -->
+  <meta name="theme-color" content="#005cb9">
+  <meta name="description" content="">
+  
+  <meta property="og:title" content="Declaración de Accesibilidad - Portal Tipo">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+</head>
+<body class="fondo-gris">
+  <a class="SkipLink" href="#contenido">Ir al contenido</a>
+  <a class="SkipLink" href="#menu">Ir al menú de navegación</a>
+
+  
+  <!-- header -->
+  
+  <header class="Header">
+    <div class="Container">
+      <div class="Header-top">
+        <div class="Grid">
+          <div class="Grid-item u-size1of3">
+            <a href="#" class="Header-top-parent">
+              <div class="Flag">
+                <span class="Flag-image">
+                  <img class="Header-parentIcon"
+                       src="../img/parent.svg"
+                       data-fallback="../img/parent.png"
+                       alt="">
+                </span>
+                <span class="Flag-body">Sitio Oficial, República Oriental del Uruguay</span>
+              </div>
+            </a>
+          </div>
+          <div class="Grid-item u-size2of3">
+            <ul class="Header-top-nav">
+              <li><a href="#">Datos abiertos</a></li>
+              <li><a href="#">Concursos</a></li>
+              <li><a href="#">Adquisiciones</a></li>
+              <li><a href="#">Transparencia</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="Header-body">
+        <div class="Bar">
+          <div class="Bar-cell u-md-size2of10">
+            <h1 class="Header-logo">
+              <a href="../index.html">
+                <!-- <img src="../img/logo.svg"
+                     data-fallback="../img/logo.png"
+                     alt="Portal Tipo">
+                 -->
+                <span class="Flag">
+                  <span class="Flag-image">
+                    <img src="../img/parent.svg"
+                     data-fallback="../img/parent.png"
+                     alt="" width="40">
+                  </span>
+                  <span class="Flag-body">
+                    Portal Tipo
+                  </span>
+                </span>
+              </a>
+            </h1>
+          </div>
+  
+          <div class="Bar-cell u-md-size4of10">
+            <div class="Header-tagline">
+              <em>Breve descripción si amerita</em>
+            </div>
+          </div>
+  
+          <div class="Bar-cell u-md-size1of10 u-textRight ">
+            <a class="Header-related" href="http://uruguaydigital.gub.uy/">
+              <img src="../dist/assets/logo-uruguay.svg"
+                   data-fallback="../dist/assets/logo-uruguay.png"
+                   alt="Uruguay Digital" width="100">
+            </a>
+          </div>
+  
+          <div class="Bar-cell">
+            <button class="Header-menuButton js-toggleMainNav">
+              <span class="Header-menuIcon"><span></span></span>
+              <span class="Header-menuButton-text">Menu</span>
+            </button>
+          </div>
+  
+          <div class="Bar-cell u-md-size3of10">
+            <div class="Header-search">
+              <div class="Search Search--b">
+                <form action="#">
+                  <label for="caja-buscador">Buscar</label>
+                  <input id="caja-buscador" class="Search-input" type="search" placeholder="Buscar...">
+                  <input class="Search-button" type="submit" value="Buscar">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- nav -->
+  
+  <nav class="Nav" id="menu">
+    <div class="Container">
+      <ul class="Nav-list">
+        <li class="Nav-item">
+          <a href="#" aria-haspopup="true" aria-expanded="false" id="item-1">Institucional</a>
+          <div class="Nav-subnav" aria-hidden="true" aria-labelledby="item-1">
+            <ul>
+              <li><a href="#">La Institución</a></li>
+                <li><a href="#">Estructura organizativa</a></li>
+                <li><a href="#">Adquisiciones</a></li>
+                <li><a href="#">Concursos</a></li>
+                <li><a href="#">Personal</a></li>
+                <li><a href="#">Información de gestión</a></li>
+                <li><a href="#">Transparencia</a></li>
+                <li><a href="#">Participación</a></li>
+                <li><a href="#">Datos abiertos</a></li>
+                <li><a href="#">Preguntas frecuentes</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="Nav-item"><a href="#">Normativa</a></li>
+          <li class="Nav-item"><a href="#">Trámites y servicios</a></li>
+          <li class="Nav-item"><a href="#">Noticias</a></li>
+          <li class="Nav-item"><a href="#">Formatos</a>
+            <div class="Nav-subnav">
+              <ul>
+                <li><a href="../formatos/carpeta.html">Carpeta (navigation)</a></li>
+                <li><a href="../formatos/carpeta-aside.html">Carpeta (aside)</a></li>
+                <li><a href="../formatos/carpeta-single.html">Carpeta (single)</a></li>
+                <li><a href="../formatos/documento.html">Documento (navigation)</a></li>
+                <li><a href="../formatos/documento-aside.html">Documento (aside)</a></li>
+                <li><a href="../formatos/documento-single.html">Documento (single)</a></li>
+                <li><a href="../formatos/agenda.html">Agenda</a></li>
+                <li><a href="../formatos/descarga.html">Descarga</a></li>
+                <li><a href="../formatos/minisitio.html">Minisitio</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="Nav-item"><a href="#">Contenidos</a>
+            <div class="Nav-subnav">
+              <ul>
+                <li><a href="../contenidos/concursos.html">Concursos</a></li>
+                <li><a href="../contenidos/adquisiciones.html">Adquisiciones</a></li>
+                <li><a href="../contenidos/participacion.html">Participación</a></li>
+                <li><a href="../contenidos/preguntas-frecuentes.html">Preguntas frecuentes</a></li>
+                <li><a href="../contenidos/datos-abiertos.html">Datos abiertos</a></li>
+                <li><a href="../contenidos/tramites-servicios.html">Trámites y servicios</a></li>
+                <li><a href="../contenidos/mapa-del-sitio.html">Mapa del sitio</a></li>
+                <li><a href="../contenidos/declaracion-accesibilidad.html">Declaración de accesibilidad</a></li>
+                <li><a href="../contenidos/terminos-uso.html">Términos de uso</a></li>
+                <li><a href="../contenidos/politica-privacidad.html">Política de privacidad</a></li>
+                <li><a href="../contenidos/transparencia.html">Transparencia</a></li>
+                <li><a href="../contenidos/transparencia-activa.html">Transparencia activa</a></li>
+                <li><a href="../contenidos/solicitud-acceso-informacion-publica.html">Solicitud de acceso a información pública</a></li>
+                <li><a href="../contenidos/contacto.html">Contacto</a></li>
+              </ul>
+            </div>
+          </li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <!-- breadcrumb -->
+  
+  <div class="Breadcrumb">
+    <div class="Container">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Institucional</a></li>
+        <li><a href="#">Municipios</a></li>
+        <li><a href="#">Lorem ipsum.</a></li>
+        <li><a href="#">Tenetur, similique!</a></li>
+        <li><a href="#">Praesentium, quas!</a></li>
+        <li><a href="#">Dicta, aliquam!</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- contenido -->
+  <main class="u-main" id="contenido">
+    <div class="Container">
+      <div class="Grid">
+        <div class="Grid-item Grid-item--center u-md-size8of10">
+          <div class="Page">
+            
+<div class="Page-document">
+  <h2 class="Page-title">Declaración de Accesibilidad</h2>
+<h3 id="1-declaraci-n-de-conformidad-de-accesibilidad">1. Declaración de conformidad de accesibilidad</h3>
+<p>El [Nombre del Organismo] trabaja para que la presentación de todos los contenidos sean accesibles para navegadores adaptados a personas con discapacidad.</p>
+<p>La política de accesibilidad aplicada por el [Nombre del Organismo] está en línea con el Decreto 450/009 “Principios y Líneas Estratégicas para el Gobierno Electrónico en Red”, para asegurar un acceso universal a los contenidos de este portal para todos los ciudadanos.</p>
+<h3 id="2-declaraci-n-de-conformidad">2. Declaración de conformidad</h3>
+<p>El alcance de esta declaración de conformidad de accesibilidad es el de todas las páginas del portal del [Nombre del Organismo], www.nombreorganismo.gub.uy</p>
+<h3 id="3-cumplimiento-de-est-ndares">3. Cumplimiento de estándares</h3>
+<p>Cumplimiento de las normas <a href="http://www.w3.org/TR/WCAG10/">WCAG 2</a> (Web Content Accessibility Guidelines) del W3C (World Wide Web Consortium), en su nivel AA. La presentación se basa en la recomendación del W3C sobre las Hojas de Estilo en Cascada (CSS 3).</p>
+<p>Se ha empleado el lenguaje de marcado HTML 5.</p>
+<p>Se ha validado para poder ser visualizado correctamente en celulares y dispositivos de mano (MobileOK Basic).</p>
+<h3 id="4-fecha-de-ltima-revisi-n">4. Fecha de última revisión</h3>
+<p>La última revisión sobre el nivel de accesibilidad de este portal ha sido realizada con fecha del 00/00/0000.</p>
+<h3 id="5-uso-de-las-caracter-sticas-de-accesibilidad">5. Uso de las características de accesibilidad</h3>
+<p>El acceso a las características de accesibilidad varía entre los navegadores más utilizados. A continuación se describen los métodos concretos para sacar el mayor partido a las facilidades que proporciona cada uno de ellos.</p>
+<h4 id="teclas-de-acceso-r-pido">Teclas de acceso rápido</h4>
+<p>El acceso a los enlaces que tienen una tecla de acceso rápido definida se realiza pulsando distintas combinaciones de teclas según el navegador:</p>
+<ul>
+<li><strong>Microsoft Internet Explorer:</strong> Pulse la combinación de teclas Alt tecla de acceso rápido y a continuación RetornoEnter.</li>
+<li><strong>Firefox y Nestscape:</strong> Pulse a un tiempo las teclas Shift (la empleada para escribir letras mayúsculas una a una) y Alt, y la tecla de acceso rápido.</li>
+<li><strong>Opera:</strong> Pulse a un tiempo las teclas Shift (la empleada para escribir letras mayúsculas una a una) y Esc, suéltelas y a continuación pulse sólo la tecla de acceso rápido.</li>
+</ul>
+<h3 id="6-contacto">6. Contacto</h3>
+<p>Con el fin de asegurar una mejora continua de la accesibilidad web, facilitamos una vía de Contacto (acceso desde aquí al formulario de contacto) que permite a los ciudadanos informar sobre las dificultades que pudieran encontrar en el acceso a los contenidos de nuestro portal.</p>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <!-- footer -->
+  
+  <footer class="Footer">
+    <div class="Footer-nav">
+      <div class="Container">
+        <div class="Grid">
+          <div class="Grid-item u-md-size1of3">
+            <div class="Footer-nav-title">
+              Primera sección
+            </div>
+            <ul class="Footer-nav-list List">
+              <li><a href="#">Lorem ipsum dolor sit.</a></li>
+              <li><a href="#">Provident eum mollitia ullam?</a></li>
+              <li><a href="#">Exercitationem in esse error.</a></li>
+              <li><a href="#">Ducimus, excepturi! Quaerat, illum.</a></li>
+            </ul>
+          </div>
+          <div class="Grid-item u-md-size1of3">
+            <div class="Footer-nav-title">
+              Segunda sección
+            </div>
+            <ul class="Footer-nav-list List">
+              <li><a href="#">Lorem ipsum dolor sit.</a></li>
+              <li><a href="#">Provident eum mollitia ullam?</a></li>
+              <li><a href="#">Exercitationem in esse error.</a></li>
+              <li><a href="#">Ducimus, excepturi! Quaerat, illum.</a></li>
+            </ul>
+          </div>
+          <div class="Grid-item u-md-size1of3">
+            <div class="Footer-nav-title">
+              Tercera sección
+            </div>
+            <ul class="Footer-nav-list List">
+              <li><a href="#">Lorem ipsum dolor sit.</a></li>
+              <li><a href="#">Provident eum mollitia ullam?</a></li>
+              <li><a href="#">Exercitationem in esse error.</a></li>
+              <li><a href="#">Ducimus, excepturi! Quaerat, illum.</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="Footer-info">
+      <div class="Footer-header">
+        <div class="Container">
+          <div class="Bar">
+            <div class="Bar-cell u-size1of2"><a class="Footer-siteName" href="#">Portal Tipo</a></div>
+            <div class="Bar-cell u-size1of2 u-textRight">
+              <ul class="Footer-socialMedia">
+                <li><a href="#"><span class="Icon Icon--twitter"></span></a></li>
+                <li><a href="#"><span class="Icon Icon--facebook"></span></a></li>
+                <li><a href="#"><span class="Icon Icon--youtube"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Footer-addresses">
+        <div class="Container">
+          <div class="Grid">
+            <div class="Grid-item u-md-size1of2">
+              <address class="Footer-addresses-item">
+                <span class="Footer-addressName">Oficina Central</span>
+                Dirección: 18 de Julio 1624<br>
+                Teléfono: 4632 4671 al 76<br>
+                Horario de atención al público de 12:30 a 18:00 hs
+              </address>
+            </div>
+            <div class="Grid-item u-md-size1of2">
+              <address class="Footer-addresses-item">
+                <span class="Footer-addressName">Oficina en Montevideo</span>
+  
+                Dirección: 18 de Julio 1624<br>
+                Teléfono: 4632 4671 al 76<br>
+                Horario de atención al público de 12:30 a 18:00 hs
+              </address>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Footer-links">
+        <div class="Container">
+          <ul>
+            <li><a href="#">Declaración de accesibilidad</a></li>
+            <li><a href="#">Términos de Uso</a></li>
+            <li><a href="#">Política de Privacidad</a></li>
+            <li><a href="#">Mapa del Sitio</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  
+  <script src="../dist/js/vendor/jquery.min.js"></script>
+  <script src="../dist/js/portal-tipo.min.js" async></script>
+  
+</body>
+</html>
